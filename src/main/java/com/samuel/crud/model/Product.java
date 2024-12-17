@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class Product {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
     private Long price;
@@ -22,6 +22,10 @@ public class Product {
         this.price = price;
     }
 
+
+    public Product() {
+    }
+    
     public Integer getId() {
         return id;
     }
@@ -45,5 +49,8 @@ public class Product {
     public void setPrice(Long price) {
         this.price = price;
     }
+
+
+
 
 }

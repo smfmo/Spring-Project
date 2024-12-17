@@ -5,4 +5,5 @@ import com.samuel.crud.model.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Integer>{
 
+
 }
