@@ -47,14 +47,6 @@ Este projeto consiste em um CRUD (Create, Read, Update, Delete) de produtos dese
 - `PUT /products/{id}`: Atualiza um produto pelo ID.
 - `DELETE /products/{id}`: Deleta um produto pelo ID.
 
-## Contribuição
-
-Sinta-se à vontade para contribuir com melhorias para este projeto. Para isso, siga os passos:
-
-1. **Faça um fork do repositório**.
-2. **Crie uma branch para sua feature ou correção**.
-3. **Envie um Pull Request com a descrição das alterações realizadas**.
-
 ## Autor
 
-Este projeto foi desenvolvido por [Seu Nome]. Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato.
+Este projeto foi desenvolvido por Samuel Monteiro Ferreira.
